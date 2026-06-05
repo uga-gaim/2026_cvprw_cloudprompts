@@ -4,7 +4,7 @@
 
 **Lab for Geoinformatics and AI Modeling (GAIM), Department of Geography, The University of Georgia**
 
-📄 [Paper](https://arxiv.org/abs/2604.08956) &nbsp;|&nbsp; 🤗 [Models](https://huggingface.co/collections/uga-gaim/2026-cvprw-cloudprompts)
+📄 [Paper](https://openaccess.thecvf.com/content/CVPR2026W/EarthVision/papers/Kethavath_Low-Data_Supervised_Adaptation_Outperforms_Prompting_for_Cloud_Segmentation_Under_Domain_CVPRW_2026_paper.pdf) &nbsp;|&nbsp; 🤗 [Models](https://huggingface.co/collections/uga-gaim/2026-cvprw-cloudprompts)
 
 ---
 
@@ -125,14 +125,13 @@ Fine-tuned models are available on HuggingFace under the [`uga-gaim`](https://hu
 If you use this code or models in your research, please cite:
 
 ```bibtex
-@misc{kethavath2026lowdatasupervisedadaptationoutperforms,
-      title={Low-Data Supervised Adaptation Outperforms Prompting for Cloud Segmentation Under Domain Shift}, 
-      author={Harshith Kethavath and Weiming Hu},
-      year={2026},
-      eprint={2604.08956},
-      archivePrefix={arXiv},
-      primaryClass={cs.CV},
-      url={https://arxiv.org/abs/2604.08956}, 
+@InProceedings{Kethavath_2026_CVPR,
+    author    = {Kethavath, Harshith and Hu, Weiming},
+    title     = {Low-Data Supervised Adaptation Outperforms Prompting for Cloud Segmentation Under Domain Shift},
+    booktitle = {Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR) Workshops},
+    month     = {June},
+    year      = {2026},
+    pages     = {7960-7969}
 }
 ```
 
